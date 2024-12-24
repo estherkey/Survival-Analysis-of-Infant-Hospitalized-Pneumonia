@@ -8,3 +8,24 @@ The data was collected from annual personal interviews conducted as part of the 
 In this project, time to hospitalized pneumonia in young children was analyzed to see whether the number of siblings affects infants to have hospitalized pneumonia in the first year of life. The effects of any additional significant factors discovered during the analysis were also studied.
 The observed survival time is from birth to age the child is in the hospital for pneumonia; hence, the variable ‘agepn’ was used as survival time. The variable ‘hospital’, which is an indicator for hospitalization for pneumonia was used as a status variable.
 Nonparametric tests were used to identify significant covariates for survival time. Semiparametric model was built to describe the relationship between the variable of interest ‘nsibs’, other covariates, and survival time, and a final fitted equation to predict the survival time was provided.
+
+
+
+## Overview
+In this project, time to hospitalized pneumonia in young children was analyzed to see whether the number of siblings affects infants to have hospitalized pneumonia in the first year of life. The effects of any additional significant factors discovered during the analysis were also studied.
+
+## Steps
+1. Data cleaning and preparation (R)
+2. Exploratory Data Analysis (R)
+3. Model Building and Evaluation (SAS)
+   - Employed Kaplan-Meier Estimation to study the relationship between the survival time and predictors.
+   - Built a Cox proportional hazards model that describes the effects of significant predictors on the hazard rates.
+   - Computed Harrell’s C-statistic and time-dependent ROC curves to assess the predictive accuracy of the model.
+
+## Files
+- `pneumon_EDA.qmd`: R script for data processing and exploratory data analysis.
+- `pneumon_Model.sas`: SAS code for model building and evaluation.
+- `pneumon.csv`: Raw dataset used as input.
+  
+
+
